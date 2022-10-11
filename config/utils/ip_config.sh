@@ -2,7 +2,7 @@
 
 # Set up host's eth0 ip
 
-NUMBER=$(echo $HOSTNAME | tr -dc '0-9')/24
+NUMBER=$(echo $HOSTNAME | tr -dc '0-9')
 
 if [ $NUMBER = "1" ]
 then

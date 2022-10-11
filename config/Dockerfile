@@ -22,5 +22,6 @@ COPY utils/start.sh start.sh
 # For P2
 
 COPY utils/static_vxlan.sh static_vxlan.sh
+COPY utils/dyn_vxlan.sh dyn_vxlan.sh
 
 CMD ./start.sh
