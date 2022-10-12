@@ -24,4 +24,11 @@ COPY utils/start.sh start.sh
 COPY utils/static_vxlan.sh static_vxlan.sh
 COPY utils/dyn_vxlan.sh dyn_vxlan.sh
 
+# For P3
+
+COPY utils/rr_conf.sh rr_conf.sh
+COPY utils/leaf_conf.sh leaf_conf.sh
+
+# Start Project
+
 CMD ./start.sh
