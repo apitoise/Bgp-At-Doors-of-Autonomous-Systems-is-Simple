@@ -7,6 +7,7 @@ RUN apk update && \
 
 # For P2
 COPY utils/ip_config.sh ip_config.sh
+COPY utils/P3_ip_conf.sh P3_ip_conf.sh
 
 # FOR P1
 FROM frrouting/frr AS router
